@@ -1,7 +1,12 @@
 //
 const shoes = [
   // --- 1. NIKE (Giữ nguyên 5 mẫu đầu) ---
-  { id: 1, name: "Nike Air Force 1 '07", price: 2490000, brand: "Nike", image: "imgweb/nike_1.jpg", desc: "Biểu tượng thời trang đường phố." },
+  { id: 1,
+    name: "Nike Air Force 1 '07",
+    price: 2900000,
+    brand: "Nike",
+    image: "imgweb/nike-af1.jpg", 
+   desc: "Biểu tượng thời trang đường phố." },
   { id: 2, name: "Nike Air Max Pulse", price: 4500000, brand: "Nike", image: "imgweb/nike_2.jpg", desc: "Sự kết hợp hoàn hảo giữa êm ái và phong cách." },
   { id: 3, name: "Nike Pegasus 40", price: 3200000, brand: "Nike", image: "imgweb/nike_3.jpg", desc: "Dòng giày chạy bộ huyền thoại." },
   { id: 4, name: "Nike Court Legacy", price: 1900000, brand: "Nike", image: "imgweb/nike_4.jpg", desc: "Phong cách tennis cổ điển." },
@@ -197,3 +202,4 @@ function checkLoginStatus() {
 // Gọi hàm kiểm tra ngay khi load trang
 
 checkLoginStatus();
+
